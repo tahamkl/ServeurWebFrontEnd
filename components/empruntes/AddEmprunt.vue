@@ -5,6 +5,7 @@
 
             <form @submit.prevent="addNewEmprunt">
                 <div class="mb-3">
+                    <label for="date_emprunt" class="form-label">Date d'emprunt</label>
                     <input
                         v-model="emprunt.date_emprunt"
                         type="date"
